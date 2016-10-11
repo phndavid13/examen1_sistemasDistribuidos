@@ -13,3 +13,9 @@ Para usar este repositorio:
 5. Para visualizar la información de la base de datos, ingrese la uri 192.168.131.61:8090/db.
 
 <h2><b>Contrato de API REST</b></h2>
+<table>
+  <tr>
+    <th>GET<br><br>{{host}}/db</th>
+    <th>Obtiene<br>los datos de la base de datos, ubicada en otra máquina virtual e implementada<br>en Posgresql.</th>
+  </tr>
+</table>
