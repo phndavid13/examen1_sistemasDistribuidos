@@ -28,7 +28,6 @@ remote_directory '/home/vagrant/webapps' do
 	group 'root'
 	mode 0644
 end
-
 bash 'latest_node' do
 	user "root"
 	code <<-EOH
@@ -38,8 +37,6 @@ bash 'latest_node' do
 	ln -sf /usr/local/n/versions/node/v6.6.0/bin/node /usr/bin/node 
 	EOH
 end  
-
-
 bash 'start_app' do
 	user "root"
 	code <<-EOH
